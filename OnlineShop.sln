@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop", "OnlineShop.csproj", "{9EB42F73-3DE2-4C32-A3D6-EAC616685975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModels", "..\DataModels\DataModels.csproj", "{CF74F047-9644-47DE-8623-B97405367893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{F450028C-40F2-4B04-8E23-FC67F55350D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EB42F73-3DE2-4C32-A3D6-EAC616685975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB42F73-3DE2-4C32-A3D6-EAC616685975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB42F73-3DE2-4C32-A3D6-EAC616685975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB42F73-3DE2-4C32-A3D6-EAC616685975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF74F047-9644-47DE-8623-B97405367893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF74F047-9644-47DE-8623-B97405367893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF74F047-9644-47DE-8623-B97405367893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF74F047-9644-47DE-8623-B97405367893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F450028C-40F2-4B04-8E23-FC67F55350D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F450028C-40F2-4B04-8E23-FC67F55350D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F450028C-40F2-4B04-8E23-FC67F55350D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F450028C-40F2-4B04-8E23-FC67F55350D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {377DD30A-5DA7-4DD7-A19F-3B46197D243B}
+	EndGlobalSection
+EndGlobal
